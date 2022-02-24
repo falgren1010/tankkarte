@@ -30,4 +30,13 @@ public class Card {
         this.state = state;
     }
 
+    public CardState getState() {
+        return this.state;
+    }
+
+    //Funktion wird nur für UnitTests benötigt
+    public String getPin(){
+        return this.pin;
+    }
+
 }

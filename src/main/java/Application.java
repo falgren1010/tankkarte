@@ -6,6 +6,7 @@ public class Application {
 
         Card card = new Card("Denis Danilov", "a7HxP37b", new EncryptionAES(), cryptoKey);
         card.addPoints(74);
+        System.out.println("Punktestand:" + card.getPoints());
 
     }
 

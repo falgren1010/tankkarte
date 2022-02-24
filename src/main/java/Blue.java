@@ -12,8 +12,14 @@ public class Blue extends CardState{
 
     @Override
     protected void checkForCardStatusUpgrade() {
-        if(this.card.getPoints() >= 500){
+        if(this.card.getPoints() >= 500 && this.card.getPoints() < 1250){
             this.card.setState(new Bronze(this.card));
+        }
+        else if(this.card.getPoints() >= 1250 && this.card.getPoints() < 5000) {
+            this.card.setState(new Silver(this.card));
+        }
+        else if(this.card.getPoints() >= 5000 ){
+            this.card.setState(new Gold(this.card));
         }
     }
 
