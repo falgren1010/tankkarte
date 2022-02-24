@@ -1,3 +1,5 @@
+package State;
+
 public abstract class CardState {
 
     protected final Card card;

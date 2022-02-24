@@ -1,4 +1,6 @@
-public class Silver extends CardState{
+package State;
+
+public class Silver extends CardState {
 
     public Silver(Card card){
         super(card);

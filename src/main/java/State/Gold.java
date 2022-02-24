@@ -1,3 +1,6 @@
+package State;
+
+
 public class Gold extends CardState {
 
     public Gold(Card card){

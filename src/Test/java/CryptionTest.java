@@ -1,3 +1,7 @@
+import State.Card;
+import Strategy.EncryptionAES;
+import Strategy.EncryptionDES;
+import Strategy.ICryptionStrategy;
 import org.junit.jupiter.api.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
